@@ -1,6 +1,10 @@
 {
   "name": "ts-workshop-notes",
   "private": true,
+  "scripts": {
+    "type-check": "tsc --project tsconfig.json --noEmit",
+    "type-check:watch": "tsc --project tsconfig.json --noEmit --watch"
+  },
   "devDependencies": {
     "typescript": "3.5.2"
   }
